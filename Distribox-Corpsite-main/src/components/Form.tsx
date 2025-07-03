@@ -38,7 +38,7 @@ const SubmitForm: React.FC = () => {
           message: formData.message
         }
       }
-      const scriptUrl = 'https://script.google.com/macros/s/AKfycbwJzr1fBifC_gtZtNuzZBOXdpBiwb173d0E774dQ_ZYxsemDB7M0CNmfgYcOoznDiNz8A/exec';
+      const scriptUrl = 'https://script.google.com/macros/s/AKfycbxrTVkCv0md2Mw0D2mKqab0iknPhskDNcKHyiXjxd4UmilBKCM8znFIhqwKRCDkwc9g/exec';
       console.log('formData', formData);
 
       const response = await fetch(scriptUrl, {
